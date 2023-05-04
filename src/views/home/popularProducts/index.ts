@@ -1,0 +1,1 @@
+export {PopularProducts as default} from './popularProducts';

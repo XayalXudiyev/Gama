@@ -1,0 +1,1 @@
+export {HealthForAll as default} from './healthForAll';

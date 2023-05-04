@@ -1,0 +1,1 @@
+export {AboutAndNews as default} from './aboutAndNews';

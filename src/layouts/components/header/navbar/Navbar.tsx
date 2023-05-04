@@ -6,8 +6,6 @@ import { ReactComponent as Icon } from '../../../../assets/img/icon.svg';
 import { ReactComponent as Hearticon } from '../../../../assets/img/heartIcon.svg';
 import { ReactComponent as ShoppingCarticon } from '../../../../assets/img/shoppingCartIcon.svg';
 
-
-
 export const Navbar = () => {
 
     type Link = {
@@ -22,7 +20,7 @@ export const Navbar = () => {
     ]
 
     return (
-        <nav className="h-28 bg-lime-300 flex  items-center   ">
+        <nav className="h-28  flex  items-center   ">
 
             <span className="h-10 w-32 ps-10 pt-1">
                 <Logo className="w-32 h-8" />

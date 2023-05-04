@@ -8,13 +8,17 @@ export default {
 
   content: [],
   theme: {
-    colors: {
-      navColor: "#7C7C7C",
-      main: "#5DCC15",
-      white:'#fff'
-    },
 
-    extend: {},
+
+    extend: {
+      colors: {
+        navColor: "#7C7C7C",
+        main: "#5DCC15",
+        mainHover: "#3A4949",
+        titleText: '#555252',
+        newsBackground: 'rgb(249,240,250)',
+      },
+    },
   },
   plugins: [],
 };

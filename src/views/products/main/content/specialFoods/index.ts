@@ -1,0 +1,1 @@
+export {SpecialFoods as default} from './specialFoods';

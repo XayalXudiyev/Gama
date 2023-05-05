@@ -1,0 +1,1 @@
+export {Collagens as default} from './collagens';

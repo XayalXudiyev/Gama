@@ -1,0 +1,1 @@
+export {Probiotics as default} from './probiotics';

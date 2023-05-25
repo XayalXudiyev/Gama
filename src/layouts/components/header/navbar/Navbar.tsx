@@ -14,7 +14,7 @@ export const Navbar = () => {
 
     const links: Link[] = [
         { to: '/', text: 'Əsas səhifə' },
-        { to: '/products', text: 'Məhsullar', },
+        { to: '/products/minerals', text: 'Məhsullar', },
         { to: '/about', text: 'Haqqımızda' },
     ]
 
@@ -46,7 +46,7 @@ export const Navbar = () => {
                                         className={`w-3 h-6 inline-block ml-1 ${arrowDown ? '' : 'transform rotate-180'} `} />
                                     {dropdownVisible && (
 
-                                        <div 
+                                        <div
                                             className="absolute top-0 left-0 mt-8 bg-white opacity-80 text-navColor"
                                             onMouseEnter={() => { setDropdownVisible(true); setArrowDown(false); }}
                                             onMouseLeave={() => { setDropdownVisible(false); setArrowDown(true); }}
@@ -56,9 +56,9 @@ export const Navbar = () => {
                                                 onMouseLeave={() => setSubMenuVisible(false)}
                                             >
                                                 Minerallar
-                                                 
+
                                                 Minerallar
-                                                 </NavLink>
+                                            </NavLink>
                                             <div className={`absolute left-full top-0 mt-0 bg-white opacity-80 text-navColor w-64 h-auto transition-all duration-300 ease-in-out ${subMenuVisible ? 'visible' : 'invisible'}`}
                                                 onMouseEnter={() => setSubMenuVisible(true)}
                                                 onMouseLeave={() => setSubMenuVisible(false)}

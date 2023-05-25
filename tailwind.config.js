@@ -30,6 +30,7 @@ export default {
         titleText: '#555252',
         newsBackground: 'rgb(249,240,250)',
         footerColor: '#F3F3F3',
+        aboutHero: '#F7F7F7CC'
       },
     },
   },

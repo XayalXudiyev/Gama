@@ -3,7 +3,7 @@ import { Main } from "./main/main"
 
 export const Products = () => {
   return (
-    <div >
+    <div className="mx-10">
       <Hero />
       <Main />
     </div>

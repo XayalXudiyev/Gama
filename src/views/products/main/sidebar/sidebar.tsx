@@ -1,17 +1,20 @@
 import { NavLink } from "react-router-dom"
+
+
+
+
 export const Sidebar = () => {
 
-type Link = {
-  id: number,
-  text: string,
-  to: string
-}
+  type Link = {
+    id: number,
+    text: string,
+    to: string,  }
 
-  const links:Link[] = [
+  const links: Link[] = [
     {
       id: 1,
       text: 'Minerallar',
-      to: '/products/minerals'
+      to: '/products/minerals',
     },
     {
       id: 2,
@@ -41,15 +44,16 @@ type Link = {
     },
   ]
 
-
   return (
-    <div className="bg-footerColor text-start pl-5 pt-10">
-      <h1 className="pb-5">Kateqoriyalar</h1>
+
+    <div className="bg-footerColor text-start text-navColor pl-5 pt-10 h-[600px]">
+
+      <h1 className="my-8">Kateqoriyalar</h1>
       <ul>
         {
           links.map((link) => (
             <li key={link.id} className='text-[12px] text-navColor  py-5'>
-              <NavLink to={link.to} className='text-[12px] text-navColor text-center mt-4'>
+              <NavLink to={link.to} className='text-[12px] text-navColor text-center'>
                 {link.text}
               </NavLink>
             </li>
